@@ -68,7 +68,7 @@ export const allSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('powerRunes-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('powerRunes.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -77,7 +77,7 @@ export const allSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('siege-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('siege.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -86,7 +86,7 @@ export const allSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('stack-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('stack.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -96,7 +96,7 @@ export const allSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('outpost-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('outpost.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -105,7 +105,7 @@ export const allSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('tome-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('tome.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -115,7 +115,7 @@ export const allSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('aegis-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('aegis.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -127,7 +127,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('smallAt15-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt15.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -136,7 +136,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('smallAt45-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt45.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -145,7 +145,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt26-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt26.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -154,7 +154,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt56-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt56.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -163,7 +163,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt1719-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt1719.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -172,7 +172,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt4749-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt4749.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -181,7 +181,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt26-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt26.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -190,7 +190,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt56-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt56.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -199,7 +199,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('smallAt15-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt15.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -208,7 +208,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('smallAt45-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt45.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -217,7 +217,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt19-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt19.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -226,7 +226,7 @@ export const pullSounds = {
         enabled: true,
         sounds: [
             { name: 'Robot', sound: new Audio('mediumAt49-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt49.mp3'), selected: false},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     }
