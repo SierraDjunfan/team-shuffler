@@ -2,7 +2,7 @@ import { allPullSoundBanks, allSoundBanks} from "./AllSounds";
 import { AppState } from "./Interfaces";
 
 export const initialAppState: AppState = {
-    time: 0,
+    time: -73,
     timerShouldTick: false,
     sounds: allSoundBanks,
     pullSounds: allPullSoundBanks,

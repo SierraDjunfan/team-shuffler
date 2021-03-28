@@ -22,6 +22,8 @@ import { Timer } from './Timer'
 //SAVE STATE ON BROWSER CLOSE
 //TTS LIBRARY
 
+//73 second game start timer 
+
 export const App = () => {
 
     const [state, setState] = useState(initialAppState)
@@ -170,7 +172,7 @@ export const App = () => {
             addNotification("A siege creep has spawned", "")
         }
 
-        if (isBountyRuneTime(newTime + 20) && state.time !== 0) {
+        if (isBountyRuneTime(newTime + 20)) {
             playSoundBankSoundIfEnabled("Bounty Rune Spawned", SoundType.NormalSound)
             addNotification("Bounty Rune will spawn in 20 seconds", "It gives lots of gold lol")
         }
