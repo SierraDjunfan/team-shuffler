@@ -3,8 +3,8 @@ export const allSounds = {
         soundBankTitle: "Bounty Rune Spawned",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('bounty-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('bounty-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('bounty.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -13,8 +13,8 @@ export const allSounds = {
         soundBankTitle: "New Neutral Items Spawned",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('neutrals-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('neutral.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('neutrals-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('neutral.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -22,8 +22,8 @@ export const allSounds = {
         soundBankTitle: "Aghanim's Shard Available",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('aghanim-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('aghanim.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('aghanim-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('aghanim.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -31,8 +31,8 @@ export const allSounds = {
         soundBankTitle: "Earliest Roshan Spawn Time",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('roshanMaybe-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('roshanMaybe.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('roshanMaybe-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('roshanMaybe.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -40,8 +40,8 @@ export const allSounds = {
         soundBankTitle: "Latest Roshan Spawn Time",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('roshanDefinitely-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('roshanDefinitely.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('roshanDefinitely-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('roshanDefinitely.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}    
         ]
     },
@@ -49,8 +49,8 @@ export const allSounds = {
         soundBankTitle: "Last Hit Goal",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('cs-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('cs.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('cs-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('cs.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -58,8 +58,8 @@ export const allSounds = {
         soundBankTitle: "Item Goal",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('item-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('item.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('item-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('item.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -67,8 +67,8 @@ export const allSounds = {
         soundBankTitle: "Power Rune Spawned",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('powerRunes-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('powerRunes.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('powerRunes-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('powerRunes.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -76,8 +76,8 @@ export const allSounds = {
         soundBankTitle: "Siege Creep has spawned",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('siege-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('siege.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('siege-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('siege.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -85,8 +85,8 @@ export const allSounds = {
         soundBankTitle: "Time to stack",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('stack-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('stack.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('stack-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('stack.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -95,8 +95,8 @@ export const allSounds = {
         soundBankTitle: "Outpost Time",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('outpost-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('outpost.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('outpost-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('outpost.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -104,8 +104,8 @@ export const allSounds = {
         soundBankTitle: "Tome is ready",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('tome-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('tome.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('tome-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('tome.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -114,8 +114,8 @@ export const allSounds = {
         soundBankTitle: "Aegis has expired",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('aegis-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('aegis.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('aegis-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('aegis.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -126,8 +126,8 @@ export const pullSounds = {
         soundBankTitle: "Dire SafeLane Small Camp Pull",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('smallAt15-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('smallAt15.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('smallAt15-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt15.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -135,8 +135,8 @@ export const pullSounds = {
         soundBankTitle: "Dire SafeLane Small Camp Pull B",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('smallAt45-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('smallAt45.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('smallAt45-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt45.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -144,8 +144,8 @@ export const pullSounds = {
         soundBankTitle: "Dire SafeLane Medium Camp Pull",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt26-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt26.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt26-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt26.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -153,8 +153,8 @@ export const pullSounds = {
         soundBankTitle: "Dire SafeLane Medium Camp Pull B",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt56-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt56.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt56-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt56.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -162,8 +162,8 @@ export const pullSounds = {
         soundBankTitle: "Dire OffLane Medium Camp Pull",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt1719-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt1719.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt1719-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt1719.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -171,8 +171,8 @@ export const pullSounds = {
         soundBankTitle: "Dire OffLane Medium Camp Pull B",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt4749-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt4749.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt4749-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt4749.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -180,8 +180,8 @@ export const pullSounds = {
         soundBankTitle: "Radiant SafeLane Medium Camp Pull",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt26-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt26.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt26-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt26.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -189,8 +189,8 @@ export const pullSounds = {
         soundBankTitle: "Radiant SafeLane Medium Camp Pull B",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt56-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt56.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt56-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt56.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -198,8 +198,8 @@ export const pullSounds = {
         soundBankTitle: "Radiant SafeLane Small Camp Pull",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('smallAt15-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('smallAt15.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('smallAt15-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt15.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -207,8 +207,8 @@ export const pullSounds = {
         soundBankTitle: "Radiant SafeLane Small Camp Pull B",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('smallAt45-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('smallAt45.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('smallAt45-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('smallAt45.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -216,8 +216,8 @@ export const pullSounds = {
         soundBankTitle: "Radiant OffLane Medium Camp Pull",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt19-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt19.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt19-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt19.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     },
@@ -225,8 +225,8 @@ export const pullSounds = {
         soundBankTitle: "Radiant OffLane Medium Camp Pull B",
         enabled: true,
         sounds: [
-            { name: 'Robot', sound: new Audio('mediumAt49-tts.mp3'), selected: true},
-            { name: 'Spoken Word', sound: new Audio('mediumAt49.mp3'), selected: false},
+            { name: 'Robot', sound: new Audio('mediumAt49-tts.mp3'), selected: false},
+            { name: 'Spoken Word', sound: new Audio('mediumAt49.mp3'), selected: true},
             { name: 'Generic', sound: new Audio('generic.mp3'), selected: false}
         ]
     }
