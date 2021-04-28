@@ -1,225 +1,10 @@
-@font-face {
-  font-family: trajan-pro-bold;
-  src: url(trajanpro-bold.otf);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
     box-sizing: border-box;
-    font-size: 16px;
-    color: white;
-    background-image: url('dota-bg.png');
-
-    label {
-      font-family: 'Noto Sans', sans-serif;
-      color: rgb(209, 213, 230);
-      font-size: 18px;
-    }
-  }
-
-  .notification-time {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-family: 'Noto Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.164);
-    margin-right: 20px;
-    margin-top: 15px;
-  }
-
-  .feed {
-    position: absolute;
-    top: 150px;
-    margin-left: 650px;
-    h1 {
-      margin-bottom: 20px;
-    }
-    .notification {
-      position: relative;
-      h1 {
-        margin-bottom: 10px;
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 20px;
-        text-align: left;
-        color: white;
-      }
-     .notification-subtext {
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 16px;
-        text-align: left;
-        color: rgba(255, 255, 255, 0.678);
-      }
-      padding-top: 15px;
-      padding-left: 20px;
-      padding-bottom: 20px;
-      width: 650px;
-      background-color:rgba(43, 43, 49, 0.637);
-      margin-bottom: 30px;
-      border: none;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-  }
-
-  #role-selection {
-
-    .radio-select {
-      margin-bottom: 20px;
-    }
-
-    .radio-container {
-
-      position: relative;
-      padding-left: 35px;
-      margin-bottom: 12px;
-      cursor: pointer;
-      font-size: 22px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-    
-    .radio-container input {
-      position: absolute;
-      opacity: 0;
-      cursor: pointer;
-    }
-    
-    .inner-radio {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 25px;
-      width: 25px;
-      background-color: #eee;
-      border-radius: 50%;
-    }
-    
-    .radio-container:hover input ~ .inner-radio {
-      background-color: #ccc;
-    }
-  
-    .radio-container input:checked ~ .inner-radio {
-      background-color: #3b3738;
-    }
-    
-    .inner-radio:after {
-      content: "";
-      position: absolute;
-      display: none;
-    }
-
-    .radio-container input:checked ~ .inner-radio:after {
-      display: block;
-    }
-    
-    .radio-container .inner-radio:after {
-       top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-    }
-  }
-
-  #top-line {
-    margin-top: 10px;
-  }
-  
-  #settings-heading {
-    margin-bottom: 15px;
-  }
-
-  .radio-select {
-    input {
-      margin-bottom: 20px;
-    }
-    label {
-      margin-right: 15px;
-    }
-  }
-
-  .goal {
-    background-color: #202122;
-    height: 35px;
-    padding: 5px;
-    width: 310px;
-    border: none;
-    font-size: 16px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-    -webkit-appearance: button;
-    appearance: button;
-    outline: none;
-    font-family: 'Noto Sans', sans-serif;
-    color: rgb(209, 213, 230);
-  }
-
-  .delete-button {
-    background-color: #202122;
-    height: 35px;
-    padding: 5px;
-    width: 35px;
-    border: none;
-    font-size: 16px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-    -webkit-appearance: button;
-    appearance: button;
-    outline: none;
-    font-family: 'Noto Sans', sans-serif;
-    color: rgb(209, 213, 230);
-    margin-right: 10px;
-  }
-
-  .delete-button:hover {
-    background-color: #3e4042;
-  }
-
-  hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(231, 225, 225, 0), rgba(219, 218, 230, 0.63), rgba(250, 248, 248, 0));
-    margin-top: 40px;
-}
-
-  .text {
-    background-color: #202122;
-    height: 35px;
-    padding: 5px;
-    width: 50px;
-    border: none;
-    font-size: 16px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-    -webkit-appearance: button;
-    appearance: button;
-    outline: none;
-    font-family: 'Noto Sans', sans-serif;
-    color: rgb(209, 213, 230);
-    margin-right: 10px;
-  }
-
-  .item-goal-select {
-    margin-top: 12px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-
-    option {
-      font-family: 'Noto Sans', sans-serif;
-      color: rgb(209, 213, 230);
-      background: #202122;
-    }
-
-    label {
-      margin-right: 12px;
-    }
-  }
-
-  h2 {
-    font-family: 'Noto Sans', sans-serif;
-    color: rgb(209, 213, 230);
-    font-size: 18;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: #62b16f;
   }
   
   *, *:before, *:after {
@@ -232,38 +17,11 @@ html {
     font-weight: normal;
   }
 
-  .drop-down {
-    background-color: #202122;
-    height: 35px;
-    padding: 4px;
-    width: 220px;
-    border: none;
-    font-size: 16px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-    -webkit-appearance: button;
-    appearance: button;
-    outline: none;
-    font-family: 'Noto Sans', sans-serif;
-    color: rgb(209, 213, 230);
-    margin-right: 10px;
-  }
-
-  button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  label, p {
-    font-family: Georgia, 'Times New Roman', Times, serif
+  h1 {
+      color: white;
+      text-shadow: 3px 3px #44714a;
   }
   
-  input {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  option {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
   ol, ul {
     list-style: none;
   }
@@ -273,29 +31,40 @@ html {
     height: auto;
   }
 
-  h1 {
-    font-family: trajan-pro-bold, serif;
-    font-size: 50px;
-    background: -webkit-linear-gradient(#B3B3B3, #757575);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .add-button {
-    height: 30px;
-    width: 30px;
-    outline: none;
-    background-image: url('add.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
+button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
     border: none;
-    background-size: 30px;
-    margin-right: 5px;
-  }
+    box-shadow: none;
+}
 
-  #side-bar::-webkit-scrollbar {
+input {
+    font-family: 'Bebas Neue', cursive;
+    height: 30px;
+    font-size: 28px;
+    width: 200px;
+}
+
+.listed-player {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    text-shadow: none;
+}
+
+.delete-button {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    background-color: #2b392a;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+#side-bar::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
@@ -305,7 +74,7 @@ html {
     scrollbar-width: none;
     -ms-overflow-style: none;
     height: 100%;
-    width: 600px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -315,119 +84,56 @@ html {
     padding-top: 20px;
     padding-left: 25px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    #main-sound-customization {
-    margin-bottom: 30px;
-      hr {
-          border: 0;
-          height: 1px;
-          background-image: linear-gradient(to right, rgba(231, 225, 225, 0), rgba(219, 218, 230, 0.63), rgba(250, 248, 248, 0));
-          margin-top: 30px;
-      }
-      h1 {
-        margin-bottom: 10px;
-      }
-      .sound-option {
+    }
+
+    #quick-add-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 10px;
+    }
+
+    .quick-add-button {
+        margin-right: 3px;
+        margin-bottom: 3px;
+    }
+
+    #mid-page-section {
+        padding-left: 330px;
+        padding-top: 30px;
+    }
+
+    #add-player-section {
+        margin-top: 20px;
+        margin-bottom: 20px;
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
+    }
 
-        .checkbox-container {
-          display: block;
-          position: relative;
-          padding-left: 35px;
-          margin-bottom: 28px;
-          cursor: pointer;
-          font-size: 22px;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
-        
-        .checkbox-container input {
-          position: absolute;
-          opacity: 0;
-          cursor: pointer;
-          height: 0;
-          width: 0;
-        }
-        
-        .check-mark {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 25px;
-          width: 25px;
-          background-color: #202122;
-        }
-        
-        .checkbox-container:hover input ~ .check-mark {
-          background-color: #2b2d2e;
-        }
-        
-        .checkbox-container input:checked ~ .check-mark {
-          background-color: #202122;
-        }
-        
-        .check-mark:after {
-          content: "";
-          position: absolute;
-          display: none;
-        }
-        
-        .checkbox-container input:checked ~ .check-mark:after {
-          display: block;
-        }
-        
-        .checkbox-container .check-mark:after {
-          left: 9px;
-          top: 5px;
-          width: 7px;
-          height: 13px;
-          border: solid white;
-          border-width: 0 3px 3px 0;
-          -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-        }
+    #add-button {
+        margin-left: 5px;
+    }
 
-        label {
-          font-family: 'Noto Sans', sans-serif;
-          color: rgb(209, 213, 230);
-        }
-        select {
-        background-color: #202122;
-        height: 35px;
-        padding: 4px;
-        width: 150px;
-        border: none;
-        font-size: 16px;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-        -webkit-appearance: button;
-        appearance: button;
-        outline: none;
-        font-family: 'Noto Sans', sans-serif;
-        color: rgb(209, 213, 230);
-        margin-right: 10px;
+    .shuffle-button {
+        background-color: #3b6241;
+        color: white;
+        width: 200px;
+        height: 60px;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        font-size: 30px;
+        padding-top: 5px;
+    }
 
-        option {
-          font-family: 'Noto Sans', sans-serif;
-          color: rgb(209, 213, 230);
-          background: #202122;
-        }
-        }
-        .preview-button {
-          height: 30px;
-          width: 30px;
-          outline: none;
-          background-image: url('preview.png');
-          background-repeat: no-repeat;
-          background-position: center;
-          background-color: transparent;
-          border: none;
-          background-size: 30px;
-          margin-right: 5px;
-        }
-      }
-    }  
-  }
+    .shuffle-button:hover {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+
+    .action-button {
+        background-color: #3b6241;
+        color: white;
+        width: 90px;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
