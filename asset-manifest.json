@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/team-shuffler/static/css/main.e854f31a.chunk.css",
-    "main.js": "/team-shuffler/static/js/main.6d53c821.chunk.js",
-    "main.js.map": "/team-shuffler/static/js/main.6d53c821.chunk.js.map",
+    "main.js": "/team-shuffler/static/js/main.5ee04584.chunk.js",
+    "main.js.map": "/team-shuffler/static/js/main.5ee04584.chunk.js.map",
     "runtime-main.js": "/team-shuffler/static/js/runtime-main.5abe955e.js",
     "runtime-main.js.map": "/team-shuffler/static/js/runtime-main.5abe955e.js.map",
     "static/js/2.05811753.chunk.js": "/team-shuffler/static/js/2.05811753.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5abe955e.js",
     "static/js/2.05811753.chunk.js",
     "static/css/main.e854f31a.chunk.css",
-    "static/js/main.6d53c821.chunk.js"
+    "static/js/main.5ee04584.chunk.js"
   ]
 }
